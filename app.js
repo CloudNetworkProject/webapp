@@ -1,3 +1,4 @@
+
 // Loading environment variables from .env file
 require('dotenv').config();
 
@@ -44,3 +45,4 @@ db.sync({ force: false, alter: true })
     });
 
 module.exports = app;
+
