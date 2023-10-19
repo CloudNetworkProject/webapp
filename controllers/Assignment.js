@@ -122,7 +122,6 @@ const deleteAssignment = async (req, res) => {
     }
 };
 
-
 module.exports = {
     getAssignments,
     getAssignmentById,
