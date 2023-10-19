@@ -15,3 +15,4 @@ describe('HealthTestSuite - Checking Healthz API Endpoint', () => {
         expect(res).to.have.header('cache-control', 'no-cache, no-store, must-revalidate');
     });
 });
+
