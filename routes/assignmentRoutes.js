@@ -4,7 +4,8 @@ const { getAssignments,
     getAssignmentById,
     createAssignment,
     updateAssignment,
-    deleteAssignment } = require('../controllers/assignmentController');
+    deleteAssignment } = require('../controllers/Assignment');
+
 
 const router = express.Router();
 
