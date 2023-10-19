@@ -45,4 +45,3 @@ db.sync({ force: false, alter: true })
     });
 
 module.exports = app;
-
