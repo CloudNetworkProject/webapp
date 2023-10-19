@@ -1,7 +1,7 @@
 const fs = require('fs');
 const csv = require('csv-parser');
 const bcrypt = require('bcrypt');
-const Account = require('../models/Account');
+const Account = require('../models/account');
 
 const processCsv = async (filePath) => {
     fs.createReadStream(filePath)
