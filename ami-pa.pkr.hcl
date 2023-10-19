@@ -15,6 +15,7 @@ variable "aws_region" {
 variable "source_ami" {
   type    = string
   default = "ami-06db4d78cb1d3bbf9"
+
 }
 
 variable "ssh_username" {
@@ -25,6 +26,7 @@ variable "ssh_username" {
 variable "subnet_id" {
   type    = string
   default = "subnet-0ca7a38b6526c98ce"
+
 }
 
 variable "ami_region_list" {
@@ -35,6 +37,7 @@ variable "ami_region_list" {
 variable "ami_users_list" {
   type    = list(string)
   default = ["091621218704", "271179645293"]
+
 }
 
 variable "DB_USERNAME" {
@@ -130,6 +133,7 @@ build {
   provisioner "file" {
     destination = "/opt/start_up.sh"
     source      = "scripts/ini.sh"
+
   }
   provisioner "shell" {
     inline = [
