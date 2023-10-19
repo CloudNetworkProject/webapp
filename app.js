@@ -1,3 +1,4 @@
+
 // Loading environment variables from .env file
 require('dotenv').config();
 
@@ -43,4 +44,6 @@ db.sync({ force: false, alter: true })
         process.exit(1);  // Exit the process with failure code
     });
 
+
 module.exports = app;
+
