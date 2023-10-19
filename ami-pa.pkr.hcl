@@ -14,7 +14,8 @@ variable "aws_region" {
 
 variable "source_ami" {
   type    = string
-  default = "ami-dyduduid777dwj"
+  default = "ami-06db4d78cb1d3bbf9"
+
 }
 
 variable "ssh_username" {
@@ -24,7 +25,8 @@ variable "ssh_username" {
 
 variable "subnet_id" {
   type    = string
-  default = "subnet-dgjjwusus776sh"
+  default = "subnet-0ca7a38b6526c98ce"
+
 }
 
 variable "ami_region_list" {
@@ -34,7 +36,8 @@ variable "ami_region_list" {
 
 variable "ami_users_list" {
   type    = list(string)
-  default = ["648339937474", "738929938463"]
+  default = ["091621218704", "271179645293"]
+
 }
 
 variable "DB_USERNAME" {

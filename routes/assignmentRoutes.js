@@ -6,7 +6,6 @@ const { getAssignments,
     updateAssignment,
     deleteAssignment } = require('../controllers/Assignment');
 
-
 const router = express.Router();
 
 // Middleware to handle the PATCH method with authentication
