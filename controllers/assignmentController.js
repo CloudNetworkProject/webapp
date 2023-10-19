@@ -1,3 +1,4 @@
+
 const { Assignment } = require('../models/model');
 const { ValidationError } = require('sequelize');
 
