@@ -28,5 +28,4 @@ else if (process.env.ENV_TYPE === 'GITHUB_CI') {
 }
 
 processCsv(filePath);
-
 module.exports = app;
