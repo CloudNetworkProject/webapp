@@ -3,13 +3,14 @@ require('dotenv').config();
 
 const Sequelize = require('sequelize');
 // Import database configuration
-const config = require('../config/database');
+const config = require('../config/config');
 
 const Account = require('./Account');
 const Assignment = require('./Assignment');
 
 const env = process.env.NODE_ENV || 'development';
 const currentConfig = config[env];
+console.log("current config", currentConfig);
 const db = new Sequelize({ ...currentConfig });
 
 // Initialize models
