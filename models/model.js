@@ -3,7 +3,7 @@ require('dotenv').config();
 
 const Sequelize = require('sequelize');
 // Import database configuration
-const config = require('../config/config');
+const config = require('../config/database');
 
 const Account = require('./account');
 const Assignment = require('./Assignment');

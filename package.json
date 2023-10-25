@@ -11,7 +11,7 @@
     "type": "git",
     "url": ""
   },
-  "author": "Hemanth Saragadam",
+  "author": "Poornachandraprasad Kongara",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
@@ -33,4 +33,5 @@
     "url": "https://github.com/"
   },
   "homepage": ""
+  
 }
