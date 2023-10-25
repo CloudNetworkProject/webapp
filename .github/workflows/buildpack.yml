@@ -85,3 +85,4 @@ jobs:
         -var "PORT=${{ secrets.PORT }}" \
         -var "ENV_TYPE=${{ secrets.ENV_TYPE }}" \
         ami-pa.pkr.hcl
+
