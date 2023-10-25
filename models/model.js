@@ -17,8 +17,8 @@ const db = new Sequelize({ ...currentConfig });
 // Sequelize database connection (instance)
 Account.initModel(db);
 Assignment.initModel(db);
-
-// Define associations
+ 
+// Define associations  
 Account.hasMany(Assignment, { foreignKey: 'accountId', as: 'assignments' });
 Assignment.belongsTo(Account, { foreignKey: 'accountId', as: 'account' });
 
