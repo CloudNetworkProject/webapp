@@ -25,6 +25,7 @@ variable "ssh_username" {
 variable "subnet_id" {
   type    = string
   default = "subnet-091e4d6e56f84ba22"
+
 }
 
 variable "ami_region_list" {
