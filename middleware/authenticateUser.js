@@ -9,7 +9,7 @@ const authenticateUser = async (req, res, next) => {
             console.log("Authentication failed: Basic Authentication is required");
             return res.status(401).header('WWW-Authenticate', 'Basic').send("Authentication required");
         }
-
+ 
         const encodedCredentials = authorization.replace('Basic ', '');
         const decodedCredentials = Buffer.from(encodedCredentials, 'base64').toString('utf8');
         const [username, password] = decodedCredentials.split(':');
