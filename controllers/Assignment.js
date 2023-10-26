@@ -144,7 +144,6 @@ const updateAssignment = async (req, res) => {
     }
 };
 
-
 module.exports = {
     getAssignments,
     getAssignmentById,
