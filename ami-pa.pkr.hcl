@@ -138,7 +138,7 @@ build {
   }
   provisioner "shell" {
     inline = [
-      "sudo chmod +x /opt/ini.sh.sh"
+      "sudo chmod +x /opt/ini.sh"
     ]
   }
   provisioner "shell" {
