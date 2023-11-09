@@ -132,13 +132,13 @@ build {
     source      = "scripts/cloudwatch-config.json"
   }
   provisioner "file" {
-    destination = "/opt/start_up.sh"
+    destination = "/opt/ini.sh"
     source      = "scripts/ini.sh"
 
   }
   provisioner "shell" {
     inline = [
-      "sudo chmod +x /opt/start_up.sh"
+      "sudo chmod +x /opt/ini.sh.sh"
     ]
   }
   provisioner "shell" {
